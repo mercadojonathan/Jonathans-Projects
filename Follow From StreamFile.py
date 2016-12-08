@@ -10,10 +10,10 @@ from yahoo_finance import Share
 #|--------------------------------------------------------|
 #| OATH KEYS                                                               |
 #|--------------------------------------------------------|
-APP_KEY= 'SJVvysQTPqZxrFVZ82ivzSKEy'
-APP_SECRET= 'WqgVoayIknJyiJ7JQ3WnFdSV6uHIdJgHP6BhHBSETgtaiTSiop'
-OAUTH_TOKEN= '723310937176838146-R0lezdpCXgs5362D3UhvAj1p2xz76nz'
-OAUTH_TOKEN_SECRET= 'atactBZ48vAJals9XhQWTOy7J7wmc1VevZ9BockvBimgF'
+APP_KEY= '********'
+APP_SECRET= '********'
+OAUTH_TOKEN= '********'
+OAUTH_TOKEN_SECRET= '********'
 twitter = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
 

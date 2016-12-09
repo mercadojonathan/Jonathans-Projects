@@ -18,7 +18,7 @@ def tweet_chart_image():
     
 while True:
     stock = input('Enter Stock\n')
-    date1 = (2016, 9, 6)
+    date1 = (2016, 9, 1)
     date2 = datetime.date.today()
 
     mondays = WeekdayLocator(MONDAY)      

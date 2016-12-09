@@ -21,10 +21,10 @@ while True:
     date1 = (2016, 9, 1)
     date2 = datetime.date.today()
 
-    mondays = WeekdayLocator(MONDAY)      
-    alldays = DayLocator()             
-    weekFormatter = DateFormatter('%b %d')  # e.g., Jan 12
-    dayFormatter = DateFormatter('%d')      # e.g., 12
+    mondays = WeekdayLocator(MONDAY)
+    alldays = DayLocator()
+    weekFormatter = DateFormatter('%b %d')
+    dayFormatter = DateFormatter('%d')
 
     quotes = quotes_historical_yahoo_ohlc(stock, date1, date2)
     if len(quotes) == 0:

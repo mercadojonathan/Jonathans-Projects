@@ -12,7 +12,7 @@ OAUTH_TOKEN_SECRET= '********'
 api = Twython(APP_KEY, APP_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
 def tweet_chart_image():
-    photo = open('/Users\merca\Desktop/stock_chart_image.png', 'rb')
+    photo = open('/path', 'rb')
     response = api.upload_media(media=photo)
     api.update_status(status='$' + str.upper(stock) + ' Chart', media_ids=[response['media_id']])
     

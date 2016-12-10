@@ -1,5 +1,6 @@
 # Collect tweets from users tweeting about stock in Stock List
 # Save Twitter handles to file
+# Follow all handles in file list
 
 from twython import Twython, TwythonError, TwythonStreamer
 import time
